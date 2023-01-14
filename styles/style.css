@@ -1,0 +1,280 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 1.45rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+header div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 5;
+      -ms-flex: 5 1 300px;
+          flex: 5 1 300px;
+  margin-left: 2rem;
+}
+
+header div.logo img {
+  width: 6vw;
+  height: 6vw;
+}
+
+header nav {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 300px;
+          flex: 2 1 300px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li a {
+  color: #f3c5c5;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+main section.backImage {
+  min-height: 80vh;
+  width: 100%;
+  background-image: url(../Pictures/櫻花封面superidoljp.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main section.backImage h3 {
+  font-size: 2rem;
+  color: black;
+  margin: 0.3rem 0rem;
+}
+
+main section.backImage button.start {
+  background-color: #f4bfbf;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+main section.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main section.second h2 {
+  font-size: 1.2rem;
+  margin: 2rem 0rem;
+}
+
+main section.second section.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-height: 80vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section.second section.cards div.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+}
+
+main section.second section.cards div.card img {
+  margin: 1rem 0rem;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+main section.second section.cards div.card h4 {
+  font-size: 1.5rem;
+  margin: 1rem 0rem;
+}
+
+main section.second section.cards div.card p {
+  font-size: 1rem;
+}
+
+main section.second section.cards div.card a {
+  margin: 1rem 0rem;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  background-color: #f2d1d1;
+  color: white;
+  font-size: 1rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 40vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #f8edeb;
+}
+
+footer div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer div.logo img {
+  width: 6vw;
+  height: 6vw;
+}
+
+footer nav {
+  width: 30%;
+}
+
+footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer nav ul li {
+  -ms-flex-preferred-size: 90px;
+      flex-basis: 90px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #f3c5c5;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+footer section.links a {
+  margin: 0rem 1rem;
+}
+
+footer section.links a img {
+  width: 4vw;
+  height: 4vw;
+}
+
+@media screen and (max-width: 500px) {
+  main section.second section.cards div.card img {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media sereen and (max-width: 450px) {
+  header div.logo img {
+    width: 6vw;
+    height: 6vw;
+  }
+  footer div.logo {
+    width: 6vw;
+    height: 6vw;
+  }
+  footer section.links {
+    margin-top: 1rem;
+  }
+  footer section.links a {
+    width: 3vw;
+    height: 3vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
